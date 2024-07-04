@@ -29,7 +29,7 @@ button {
   width: 25px;
   height: 25px;
   border: 1px solid #000000b6;
-  background-color: rgba(0, 0, 0, 0.137); /*rgb(31, 42, 43);*/
+  background-color: rgba(0, 0, 0, 0.03);
   display: inline-block;
   margin: 2px;
 }
@@ -65,17 +65,17 @@ button {
   }
 
   50% {
-    background-color: rgba(17, 104, 217, 0.75);
+    background-color: rgba(255, 110, 60, 0.3);
   }
 
   75% {
     transform: scale(1.2);
-    background-color: rgba(0, 217, 159, 0.75);
+    background-color: rgba(255, 109, 60, 0.3);
   }
 
   100% {
     transform: scale(1);
-    background-color: rgba(32, 69, 73, 0.601);
+    background-color: rgba(32, 69, 73, 0.3);
   }
 }
 
@@ -93,16 +93,16 @@ button {
 @keyframes shortestPath {
   0% {
     transform: scale(0.6);
-    background-color: rgb(255, 215, 47);
+    background-color: rgb(255, 110, 60);
   }
 
   50% {
     transform: scale(1.2);
-    background-color: rgb(255, 215, 47);
+    background-color: rgb(255, 110, 60);
   }
 
   100% {
     transform: scale(1);
-    background-color: rgb(255, 215, 47);
+    background-color: rgb(255, 110, 60);
   }
 }
