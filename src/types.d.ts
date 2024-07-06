@@ -28,4 +28,6 @@ export interface NodeProps {
   onMouseDown: () => void;
   onMouseEnter: () => void;
   onMouseUp: () => void;
+  row: number;
+  col: number;
 }

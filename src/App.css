@@ -75,7 +75,7 @@ button {
 
   100% {
     transform: scale(1);
-    background-color: rgba(32, 69, 73, 0.3);
+    background-color: rgba(32, 69, 73, 0.2);
   }
 }
 
