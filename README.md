@@ -8,10 +8,10 @@ npm run dev
 ```
 
 **Screenshot:**
-<img src="https://raw.githubusercontent.com/ivaaak/React-Pathfinding-Visualization/screenshots/1.png"></img>
-<img src="https://raw.githubusercontent.com/ivaaak/React-Pathfinding-Visualization/screenshots/aStar.png"></img>
-<img src="https://raw.githubusercontent.com/ivaaak/React-Pathfinding-Visualization/screenshots/animation.png"></img>
-<img src="https://raw.githubusercontent.com/ivaaak/React-Pathfinding-Visualization/screenshots/animation2.png"></img>
+<img src="https://raw.githubusercontent.com/ivaaak/React-Pathfinding-Visualization/main/screenshots/1.png"></img>
+<img src="https://raw.githubusercontent.com/ivaaak/React-Pathfinding-Visualization/main/screenshots/aStar.png"></img>
+<img src="https://raw.githubusercontent.com/ivaaak/React-Pathfinding-Visualization/main/screenshots/animation.png"></img>
+<img src="https://raw.githubusercontent.com/ivaaak/React-Pathfinding-Visualization/main/screenshots/animation2.png"></img>
 
 Todo: 
 - Add more algorythms
