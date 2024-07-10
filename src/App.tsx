@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { NodeType } from './types';
 import { Node } from './Node';
-import { aStar, dijkstra, bfs } from './algorythms';
+import { aStar, dijkstra, bfs } from './algorithms';
 import './App.css';
+import { dfs } from './algorithms/dfs';
 
 const App: React.FC = () => {
   const rows = 20;
@@ -88,7 +89,7 @@ const App: React.FC = () => {
     setGrid(newGrid);
   }, [getInitialGrid]);
 
-  // Algorythm Logic - Run / Animate /
+  // Algorithm Logic - Run / Animate /
   const visualizeAlgorithm = (algorithm: string): void => {
     if (isRunning) return;
     setIsRunning(true);
@@ -105,6 +106,9 @@ const App: React.FC = () => {
         break;
       case 'bfs':
         visitedNodesInOrder = bfs(grid, startNodeObj, endNodeObj);
+        break;
+      case 'dfs':
+        visitedNodesInOrder = dfs(grid, startNodeObj, endNodeObj);
         break;
       default:
         return;
@@ -160,11 +164,12 @@ const App: React.FC = () => {
 
   return (
     <div className="app">
-      <h1> React Pathfinding Algorythm Visualizer</h1>
+      <h1> React Pathfinding Algorithm Visualizer</h1>
       <div className="buttonsContainer">
         <button onClick={() => visualizeAlgorithm('aStar')}>Visualize A*</button>
         <button onClick={() => visualizeAlgorithm('dijkstra')}>Visualize Dijkstra</button>
         <button onClick={() => visualizeAlgorithm('bfs')}>Visualize BFS</button>
+        <button onClick={() => visualizeAlgorithm('dfs')}>Visualize DFS</button>
         <button onClick={resetGrid} disabled={isRunning}>Reset Grid</button>
       </div>
 

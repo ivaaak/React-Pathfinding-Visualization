@@ -1,6 +1,6 @@
 import { NodeType } from '../types';
 
-// A* algorythm implementation based on this
+// A* algorithm implementation based on this
 // Theory
 // https://theory.stanford.edu/~amitp/GameProgramming/ImplementationNotes.html
 // Pseudocode

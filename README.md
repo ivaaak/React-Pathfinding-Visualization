@@ -1,5 +1,5 @@
 # Pathfinding Visualization - React + TypeScript + Vite
-A react app which aims to visualize different pathfinding algorythms by using a grid and start/end nodes and "walls".
+A react app which aims to visualize different pathfinding algorithms by using a grid and start/end nodes and "walls".
 
 ### Getting Started:
 ```
@@ -14,4 +14,4 @@ npm run dev
 <img src="https://raw.githubusercontent.com/ivaaak/React-Pathfinding-Visualization/main/screenshots/animation2.png"></img>
 
 Todo: 
-- Add more algorythms
+- Add more algorithms
